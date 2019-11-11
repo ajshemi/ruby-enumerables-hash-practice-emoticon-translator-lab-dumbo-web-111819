@@ -47,7 +47,7 @@ end
 def get_japanese_emoticon(filename,emoticon)
   result=load_library(filename)
   result.map do |item|
-    item[:get_meaning]
+    item[:get_emoticon].map do 
   # code goes here
 end
 
