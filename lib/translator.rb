@@ -1,10 +1,13 @@
 # require modules here
-  
-#load_file and save to result
-require "yaml"
-result=YAML.load_file('./lib/emoticons.yml')
+filename='./lib/emoticons.yml'
 
-def load_library
+
+def load_library(filename)
+  #load_file and save to result
+  require "yaml"
+  result=YAML.load_file(filename)
+  
+  
   #create hash with two keys :get_meaning and :get_emoticon
   name={}
   name[:get_meaning]={}
