@@ -4,6 +4,7 @@ def load_library
   name={}
   name[:get_meaning]={}
   name[:get_emoticon]={}
+  
   #load_file and save to result
   require "yaml"
   result=YAML.load_file(filename)
