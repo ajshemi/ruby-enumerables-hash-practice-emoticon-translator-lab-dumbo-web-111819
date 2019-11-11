@@ -53,7 +53,8 @@ def get_japanese_emoticon(filename,emoticon)
         new_array << v
       end
     end
-    new_array[0]
+  end
+  new_array[0]
   # code goes here
 end
 
