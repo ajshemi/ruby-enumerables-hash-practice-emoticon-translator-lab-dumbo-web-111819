@@ -3,6 +3,7 @@
 #load_file and save to result
 require "yaml"
 result=YAML.load_file(filename)
+
 def load_library(result)
   #create hash with two keys :get_meaning and :get_emoticon
   name={}
