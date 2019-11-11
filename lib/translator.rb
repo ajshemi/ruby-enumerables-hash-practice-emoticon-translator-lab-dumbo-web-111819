@@ -56,7 +56,11 @@ def get_japanese_emoticon(translate,emoticon)
       end
     end
   end
-  new_array[0]
+  if new_array.length==1
+    new_array[0]
+  else
+    "Sorry, that emoticon was not found"
+  end
 end
 
 
