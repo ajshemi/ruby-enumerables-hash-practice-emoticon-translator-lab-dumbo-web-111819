@@ -44,9 +44,9 @@ def load_library(filename)
   name
 end
 
-def get_japanese_emoticon(translate,emoticon)
+def get_japanese_emoticon(filename,emoticon)
   new_array=[]
-  result=load_library(translate)
+  result=load_library(filename)
   result.map do |k,v|
     if k == :get_emoticon
       v.map do |k1,v1|
