@@ -44,10 +44,10 @@ def load_library(filename)
   name
 end
 
-def get_japanese_emoticon(filename,)
+def get_japanese_emoticon(filename,emoticon)
   # code goes here
 end
 
-def get_english_meaning(filename,)
+def get_english_meaning(filename,emoticon)
   # code goes here
 end
