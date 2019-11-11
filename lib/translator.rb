@@ -65,5 +65,21 @@ end
 
 
 def get_english_meaning(filename,emoticon)
+    new_array=[]
+  result=load_library(filename)
+  result.map do |k,v|
+    if k == :get_meaning
+      v.map do |k1,v1|
+        if k1 == emoticon
+          new_array << v1
+        end
+      end
+    end
+  end
+  if new_array.length==1
+    new_array[0]
+  else
+    "Sorry, that emoticon was not found"
+  end
   # code goes here
 end
