@@ -4,7 +4,7 @@
 require "yaml"
 result=YAML.load_file('emoticons.yml')
 
-def load_library(result)
+def load_library()
   #create hash with two keys :get_meaning and :get_emoticon
   name={}
   name[:get_meaning]={}
