@@ -44,7 +44,7 @@ def load_library(filename)
   name
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(filename,)
   # code goes here
 end
 
