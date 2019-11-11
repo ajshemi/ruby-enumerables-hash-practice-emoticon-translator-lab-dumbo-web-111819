@@ -2,6 +2,7 @@
   
 #load_file and save to result
 require "yaml"
+filename="./lib/emoticons.yml"
 result=YAML.load_file(filename)
 
 def load_library(result)
