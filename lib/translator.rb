@@ -2,9 +2,7 @@
   
 #load_file and save to result
 require "yaml"
-filename="emoticons.yml"
-
-result=YAML.load_file(filename)
+result=YAML.load_file('emoticons.yml')
 
 def load_library(result)
   #create hash with two keys :get_meaning and :get_emoticon
