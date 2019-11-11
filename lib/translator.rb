@@ -1,14 +1,14 @@
 # require modules here
-def load_library
+  
+#load_file and save to result
+require "yaml"
+result=YAML.load_file(filename)
+def load_library(result)
   #create hash with two keys :get_meaning and :get_emoticon
   name={}
   name[:get_meaning]={}
   name[:get_emoticon]={}
-  
-  #load_file and save to result
-  require "yaml"
-  result=YAML.load_file(filename)
-  
+
   #create two hash and an array and populate them
   hash_1={}
   hash_2={}
