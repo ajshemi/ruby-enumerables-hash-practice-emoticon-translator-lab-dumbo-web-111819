@@ -48,6 +48,6 @@ def get_japanese_emoticon(filename,)
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(filename,)
   # code goes here
 end
