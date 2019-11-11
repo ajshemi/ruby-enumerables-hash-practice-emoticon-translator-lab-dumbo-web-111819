@@ -45,9 +45,15 @@ def load_library(filename)
 end
 
 def get_japanese_emoticon(filename,emoticon)
+  new_array=[]
   result=load_library(filename)
   result.map do |item|
-    item[:get_emoticon].map do 
+    item[:get_emoticon].map do |k,v|
+      if k==emoticon
+        new_array << v
+      end
+    end
+    new_array[0]
   # code goes here
 end
 
